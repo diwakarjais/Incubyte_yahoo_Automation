@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="226351" started-at="2020-12-13T06:27:04Z" finished-at="2020-12-13T06:30:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="226351" started-at="2020-12-13T06:27:04Z" finished-at="2020-12-13T06:30:51Z">
+      <class name="com.incubyte.gmailAutomation.YahooAutomationRunner">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.incubyte.gmailAutomation.YahooAutomationRunner@a38d7a3]" name="setUpBeforeClass" is-config="true" duration-ms="1767" started-at="2020-12-13T06:27:03Z" finished-at="2020-12-13T06:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="UrlSetUp()[pri:0, instance:com.incubyte.gmailAutomation.YahooAutomationRunner@a38d7a3]" name="UrlSetUp" is-config="true" duration-ms="125223" started-at="2020-12-13T06:27:04Z" finished-at="2020-12-13T06:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlSetUp -->
+        <test-method status="PASS" signature="composeMainAndSend()[pri:1, instance:com.incubyte.gmailAutomation.YahooAutomationRunner@a38d7a3]" name="composeMainAndSend" duration-ms="33176" started-at="2020-12-13T06:29:10Z" description="Compose mail" finished-at="2020-12-13T06:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeMainAndSend -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.incubyte.gmailAutomation.YahooAutomationRunner@a38d7a3]" name="tearDown" is-config="true" duration-ms="1118" started-at="2020-12-13T06:29:43Z" finished-at="2020-12-13T06:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="UrlSetUp()[pri:0, instance:com.incubyte.gmailAutomation.YahooAutomationRunner@a38d7a3]" name="UrlSetUp" is-config="true" duration-ms="54340" started-at="2020-12-13T06:29:44Z" finished-at="2020-12-13T06:30:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlSetUp -->
+        <test-method status="PASS" signature="discardMail()[pri:2, instance:com.incubyte.gmailAutomation.YahooAutomationRunner@a38d7a3]" name="discardMail" duration-ms="11348" started-at="2020-12-13T06:30:38Z" description="Discard mail" finished-at="2020-12-13T06:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discardMail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.incubyte.gmailAutomation.YahooAutomationRunner@a38d7a3]" name="tearDown" is-config="true" duration-ms="1123" started-at="2020-12-13T06:30:50Z" finished-at="2020-12-13T06:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.incubyte.gmailAutomation.YahooAutomationRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
